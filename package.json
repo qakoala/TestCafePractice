@@ -1,0 +1,22 @@
+{
+  "name": "testcafeauto",
+  "version": "1.0.0",
+  "description": "trying out testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/ --screenshots path=./screenshots,takeOnFails=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qazakaria/TestCafe.git"
+  },
+  "keywords": [
+    "testcafe"
+  ],
+  "author": "az",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qazakaria/TestCafe/issues"
+  },
+  "homepage": "https://github.com/qazakaria/TestCafe#readme"
+}

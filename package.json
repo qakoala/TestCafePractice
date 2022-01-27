@@ -4,7 +4,7 @@
   "description": "trying out testcafe",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/ --screenshots path=./screenshots,takeOnFails=true"
+    "test": "testcafe chrome tests/ -L"
   },
   "repository": {
     "type": "git",
